@@ -167,6 +167,10 @@ button {
     margin: 5px;
 }
 
+button:hover {
+    opacity: 0.6;
+}
+
 .calculator__keys > *:active::before,
 .calculator__keys > .is-depressed::before {
   background-color: rgba(0, 0, 0, 0.2);
@@ -190,7 +194,7 @@ button {
 }
 .zero {
 grid-column: span 2;
-border-radius: 18%;
+border-radius: 30%;
 text-align: left;
 }
 .topButton {
