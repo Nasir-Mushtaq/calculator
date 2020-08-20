@@ -5,17 +5,17 @@
 // Display error when divided by '0'
 
 const calculate = (n1, operator, n2) => {
-    const firstNum = parseFloat(n1)
-    const secondNum = parseFloat(n2)
-    if (operator === 'add') return firstNum + secondNum
-    if (operator === 'subtract') return firstNum - secondNum
-    if (operator === 'multiply') return firstNum * secondNum
-    if (operator === 'divide' && secondNum === 0) return "ERROR"
-        else {
-            return firstNum / secondNum
-        }
-    // 
-  }
+  const firstNum = parseFloat(n1)
+  const secondNum = parseFloat(n2)
+  if (operator === 'add') return firstNum + secondNum
+  if (operator === 'subtract') return firstNum - secondNum
+  if (operator === 'multiply') return firstNum * secondNum
+  if (operator === 'divide' && secondNum === 0) return "ERROR"
+      else {
+          return firstNum / secondNum
+      }
+  // 
+}
 
   // Here we select DOM elements of calculator, calculator display and calculator keys
   const calculator = document.querySelector('.calculator')
@@ -156,4 +156,5 @@ const calculate = (n1, operator, n2) => {
       }
     }
   })
+  // module.exports.calculate = calculate
   

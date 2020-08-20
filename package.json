@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "This calculator is based on tutorial by [Zell Liew](https://www.freecodecamp.org/news/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasir-Mushtaq/calculator.git"
+  },
+  "keywords": [],
+  "author": "Nasir",
+  "license": "ABC",
+  "bugs": {
+    "url": "https://github.com/Nasir-Mushtaq/calculator/issues"
+  },
+  "homepage": "https://github.com/Nasir-Mushtaq/calculator#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "jest": "^26.4.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
+}
